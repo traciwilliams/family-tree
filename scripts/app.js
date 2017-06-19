@@ -20,13 +20,12 @@ function addName() {
 
 
 
-	you = document.getElementById("yourName").innerHTML;
+	//you = document.getElementById("yourName").innerHTML;
 
 	
 
 	var entry = document.createElement("li");
 	entry.appendChild(document.createTextNode(you));
-
 
 
 	
