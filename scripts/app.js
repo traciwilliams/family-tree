@@ -3,6 +3,34 @@ window.onload = function welcome(){
 };
 
 
-var yourname, momname, dadname, sistername, brothername;
+// var yourname, momname, dadname, sistername, brothername;
 
-yourname=$("#start");
+// yourname=$("#start");
+
+
+
+
+
+	
+
+
+function addName() {
+	var you = document.getElementbyId("you").value;
+
+
+
+	you = document.getElementbyId("yourName").innerHTML;
+
+	
+
+	var entry = document.createElement("li");
+	entry.appendChild(document.createTextNode(you));
+
+
+
+	
+	var tree = document.getElementbyId("tree");
+	tree.appendChild(entry);
+}
+
+

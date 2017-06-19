@@ -8,17 +8,27 @@
 <h1>Your Family Tree</h1>
 
 <form>
-	<input type="text" id="you" name="your" placeholder="your name">
+	<input type="text" id="you" name="you" placeholder="your name"/>
 	<br>
-	<input type="text" id="mom" name="mom" placeholder="your mom's name"> 
+	<input type="text" id="mom" name="mom" placeholder="your mom's name"/> 
 	
-	<input type="text" id="dad" name="dad" placeholder="your dad's name">
+	<input type="text" id="dad" name="dad" placeholder="your dad's name"/>
 	<br>
-	<input type="text" id="sistername" name="sistername" placeholder="your sister's name">
-	<input type="text" id="brothername" name="brothername" placeholder="your brother's name">
+	<input type="text" id="sister" name="sister" placeholder="your sister's name"/>
+	<input type="text" id="brother" name="brother" placeholder="your brother's name"/>
 
-	<input type="submit" value="Submit">
+	<input type="button" onclick="addName()" value="Submit"/>
 </form>
+
+<ul id="tree"></ul>
+
+<div id="yourName"></div>
+<div id="momName"></div>
+<div id="dadName"></div>
+<div id="momName"></div>
+<div id="sisterName"></div>
+<div id="brotherName"></div>
+
 
 <p id="start"></p>
 
