@@ -1,6 +1,6 @@
-window.onload = function welcome(){
-	alert("hello! Welcome to 'Make your Family Tree'! Let's get started!");
-};
+// window.onload = function welcome(){
+// 	alert("hello! Welcome to 'Make your Family Tree'! Let's get started!");
+// };
 
 
 // var yourname, momname, dadname, sistername, brothername;
@@ -9,17 +9,18 @@ window.onload = function welcome(){
 
 
 
-
+// var yourName = document.getElementById("yourName");
+// yourName.innerHTML = "Family Tree"
 
 	
 
 
 function addName() {
-	var you = document.getElementbyId("you").value;
+	var you = document.getElementById("you").value;
 
 
 
-	you = document.getElementbyId("yourName").innerHTML;
+	you = document.getElementById("yourName").innerHTML;
 
 	
 
@@ -29,7 +30,7 @@ function addName() {
 
 
 	
-	var tree = document.getElementbyId("tree");
+	var tree = document.getElementById("tree");
 	tree.appendChild(entry);
 }
 
